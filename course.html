@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Details</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1 id="courseTitle">Course Title</h1>
+    <nav>
+      <a href="index.html">← Back to Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <p id="courseDescription"></p>
+    <h3>Lessons</h3>
+    <ul id="lessonList"></ul>
+
+    <div class="progress-container">
+      <p>Progress: <span id="progressPercent">0%</span></p>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+    </div>
+
+    <button id="completeBtn">Mark as Completed</button>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
