@@ -23,7 +23,12 @@ To streamline development, I leveraged ChatGPT to help craft a detailed prompt, 
 - GitHub Copilot
 - ChatGPT (for prompt engineering)
 
-## How to Run
+## Deployment
+
+This project is deployed on Netlify and can be accessed through this link:  
+[https://minie-learning.netlify.app/](https://minie-learning.netlify.app/)
+
+## How to Run Locally
 
 1. Clone this repository.
 2. Open the project folder in Visual Studio Code.
